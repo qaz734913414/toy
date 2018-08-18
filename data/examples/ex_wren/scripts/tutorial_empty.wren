@@ -7,9 +7,9 @@ foreign class MyGame {
     
     init(app, game) { start(app, game) }
     
-    start(app, game) { System.print("MyGame - start !") }
+    start(app, game) {}
     
-    pump(app, game, ui) { System.print("MyGame - pump !") }
+    pump(app, game, ui) {}
     
     scene(app, scene) {}
     
